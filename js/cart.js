@@ -85,7 +85,12 @@ class Cart {
     document.querySelector('#cart-badge').innerText = this.cartLength();
   }
   cartLength() {
-    return Object.keys(this.cart).length;
+      let total = 0;
+      for (const key in this.cart){
+          total += +this.cart[key];
+      }
+      return total;
+    //return Object.keys(this.cart).length;
   }
   order(ev) {
     if (this.cartLength() === 0) {

@@ -54,5 +54,12 @@
         "image": "tesla-roadster.jpg",
         "description": "Best sports car in the World",
         "price": 249999.99
+    },
+    {
+        "id": "9",
+        "title": "Dream Car",
+        "image": "dream-car.jpg",
+        "description": "Dream Car",
+        "price": 2499.99
     }
 ]
